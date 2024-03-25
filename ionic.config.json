@@ -1,0 +1,7 @@
+{
+  "name": "smile-shop",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
