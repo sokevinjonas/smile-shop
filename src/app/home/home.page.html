@@ -1,20 +1,19 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
+<ion-header [translucent]="true" home-header>
+  <ion-item class="search-content" lines="none">
+    <ion-icon name="search-outline" slot="start" class="search-content-icon_search"></ion-icon>
+    <ion-input placeholder="Rechercher"></ion-input>
+  </ion-item>
+  <ion-icon name="notifications-outline" size="large" class="icon-notification" color="primary"></ion-icon>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-grid class="grid-content">
+    <div class="head-content">
+      <h4>Nouveautés</h4>
+      <img src="assets/images/imgShop.png" alt="">
+    </div>
+  </ion-grid>
+  <ion-grid class="grid-slide">
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  </ion-grid>
 </ion-content>
