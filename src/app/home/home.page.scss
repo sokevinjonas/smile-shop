@@ -17,6 +17,7 @@
   .head-content{
     position: relative;
     background: #ffab00;
+    color: #fff;
     height: 160px;
     display: flex;
     align-items: center;
@@ -35,3 +36,44 @@
     right: 0;
   }
 }
+.category {
+  padding: 10px 15px;
+  .category-slide {
+    border: 2px solid #ef1919cc;
+    width: 100px;
+    height: 90px;
+  }
+  ion-item {
+    --background: #cccccc3e;
+    border-radius: 15px;
+    ion-icon{
+      font-size: 2.6rem;
+      margin-right: 4px;
+      margin-left: 8px;
+      padding: 3px;
+      border-radius: 10px;
+      color: #fff;
+    }
+    ion-label {
+      margin-left: 4px;
+      h5 {
+        margin-top: 5px;
+        font-size: 1.1rem;
+        font-weight: 400;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+    .man {
+      background: #1392b5;
+    }
+    .woman {
+      background: #ffab00;
+    }
+    .child {
+      background: #54a60d;
+    }
+  }
+}
+

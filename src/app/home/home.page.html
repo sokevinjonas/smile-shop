@@ -9,11 +9,39 @@
 <ion-content [fullscreen]="true">
   <ion-grid class="grid-content">
     <div class="head-content">
-      <h4>Nouveautés</h4>
+      <h5>Nouveautés</h5>
       <img src="assets/images/imgShop.png" alt="">
     </div>
   </ion-grid>
-  <ion-grid class="grid-slide">
-
+  <ion-grid class="category">
+    <swiper-container [slidesPerView]="2.2" [spaceBetween]="20" [speed]="400">
+      <swiper-slide>
+        <ion-item lines="none" class="ion-no-padding">
+          <ion-icon slot="start" class="man" name="man-outline"></ion-icon>
+          <ion-label class="ion-no-margin">
+            <h5>Homme</h5>
+            <p>+ de 100</p>
+          </ion-label>
+        </ion-item>
+      </swiper-slide>
+      <swiper-slide>
+        <ion-item lines="none" class="ion-no-padding">
+          <ion-icon slot="start" class="woman" name="woman-outline"></ion-icon>
+          <ion-label class="ion-no-margin">
+            <h5>Femmes</h5>
+            <p>+ de 100</p>
+          </ion-label>
+        </ion-item>
+      </swiper-slide>
+      <swiper-slide>
+        <ion-item lines="none" class="ion-no-padding">
+          <ion-icon slot="start" class="child" name="walk-outline"></ion-icon>
+          <ion-label class="ion-no-margin">
+            <h5>Enfants</h5>
+            <p>+ de 100</p>
+          </ion-label>
+        </ion-item>
+      </swiper-slide>
+    </swiper-container>
   </ion-grid>
 </ion-content>
