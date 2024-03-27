@@ -5,15 +5,15 @@ const routes: Routes = [
   
   {
     path: '',
-    redirectTo: 'tabs',
+    redirectTo: 'start',
     pathMatch: 'full'
   },
   {
-    path: 'start',
+    path: '',
     loadChildren: () => import('./start/start.module').then( m => m.StartPageModule)
   },
   {
-    path: '',
+    path: 'tabs',
     loadChildren: () => import('./tabs/tabs.module').then( m => m.TabsPageModule)
   },
   {

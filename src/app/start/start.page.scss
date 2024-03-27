@@ -1,16 +1,14 @@
 ion-content {
 --background: #ffffff90;
 .logo-top {
-    margin-top: 20px;
     display: flex;
     justify-content: center;
-    // background: #fff;
     img {
         width: 30%;
     }
 }
 .image-centre {
-    margin-top: 22%;
+    margin-top: 12%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,11 +36,11 @@ ion-row {
         color: #666;
         }
         ion-button {
-            margin-top: 20%;
+            margin-top: 13%;
             --background: #ffab00;
             // padding: 10px;
             width: 100%;
-            border-radius: 30px;
+            border-radius: 20px;
             h3 {
                 color: #fff;
                 text-align: center;
@@ -52,7 +50,7 @@ ion-row {
             margin-top: -10px;
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap: 8px;
         }
         a {
             color: #ffab00;

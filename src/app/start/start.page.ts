@@ -14,6 +14,6 @@ export class StartPage implements OnInit {
     console.log();
   }
   goToHome(){
-    this.router.navigate(['/tabs/home']);
+    this.router.navigate(['/tabs/tabs/home']);
   }
 }
