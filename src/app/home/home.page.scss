@@ -13,7 +13,7 @@
 }
 .grid-content{
   margin-top: 40px;
-  padding: 20px;
+  padding: 10px;
   .head-content{
     position: relative;
     background: #ffab00;
@@ -25,7 +25,7 @@
     padding: 0 15px;
   }
   h4 {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     color: #ffff;
     margin: 0;
   }
@@ -58,7 +58,7 @@
       margin-left: 4px;
       h5 {
         margin-top: 5px;
-        font-size: 1.1rem;
+        font-size: 0.8rem;
         font-weight: 400;
       }
       p {
@@ -76,4 +76,70 @@
     }
   }
 }
+.populaire-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px;
+  .populaire-left{
+    text-align: start;
+    p {
+      font-size: 1.3rem;
+      font-weight: 600;
+    }
+  }
+  .populaire-right {
+    text-align: right;
+  p {
+    color: #ffab00;
+    text-decoration: underline;
+  }
+  }
+}
 
+.populaire-card {
+  padding: 10px 10px;
+  ion-card {
+    position: relative;
+    height: 250px;
+    margin: 0;
+  }
+
+  ion-card-header img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+
+  ion-card-content {
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    padding: 0;
+  }
+
+  .content {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.77);
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    padding-left: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+
+  ion-label h4,
+  ion-label p {
+    font-weight: 700;
+    color: #062e99;
+  }
+
+  ion-button {
+    margin: 0;
+    height: 100%;
+    background-color:  #0b29794e;;
+  }
+}
