@@ -12,7 +12,14 @@ const routes: Routes = [
         path: 'home',
         loadChildren: () => import('../home/home.module').then( m => m.HomePageModule)
       },
-      //autres chemins
+      {
+        path: 'categorie',
+        loadChildren: () => import('../categorie/categorie.module').then( m => m.CategoriePageModule)
+      },
+      {
+        path: 'panier',
+        loadChildren: () => import('../panier/panier.module').then( m => m.PanierPageModule)
+      },
     ]
   },
   {
