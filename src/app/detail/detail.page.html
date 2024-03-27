@@ -8,7 +8,19 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <div class="img-detail">
-    <img src="assets/images/image-1.jpg" alt="">
-  </div>
+  <!-- <div > -->
+  <!-- <img src="assets/images/image-1.jpg" alt=""> -->
+  <swiper-container class="img-detail" [slidesPerView]="1" [speed]="400">
+    <swiper-slide>
+      <img src="assets/images/image-1.jpg" alt="">
+    </swiper-slide>
+    <swiper-slide>
+      <img src="assets/images/image-1.jpg" alt="">
+    </swiper-slide>
+    <swiper-slide>
+      <img src="assets/images/image-1.jpg" alt="">
+    </swiper-slide>
+  </swiper-container>
+
+  <!-- </div> -->
 </ion-content>
